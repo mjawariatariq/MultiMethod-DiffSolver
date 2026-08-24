@@ -35,4 +35,33 @@ A feature-rich MATLAB App Designer application created for solving Ordinary Diff
 1. Open MATLAB and set the working directory to the project folder.
 2. Run the code directly from the Command Window:
    ```matlab
+   
    main
+
+*(Or open `main.m` in App Designer and click **Run**)*.
+
+---
+
+## Equation Syntax Examples
+
+### 1. Symbolic Differential Equation
+* `diff(y(x),x) == y(x)`
+* `diff(y(x),x) == x + y(x)`
+* `dy/dx == cos(x)`
+
+### 2. Numerical Methods (Euler & RK4)
+Enter the Right-Hand Side (RHS) expression $f(x,y)$ for $\frac{dy}{dx} = f(x,y)$:
+* `sin(x*y) + exp(-x)`
+* `x^2 + y`
+* `x - y`
+
+---
+
+## Default Parameters (Numerical Solvers)
+
+| Parameter | Default Value |
+| :--- | :--- |
+| Initial $x_0$ | `0` |
+| Initial $y_0$ | `1` |
+| End $x$ ($x_{end}$) | `5` |
+| Step Count (`steps`) | `50` |
