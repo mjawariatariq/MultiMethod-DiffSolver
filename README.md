@@ -72,7 +72,6 @@ Enter the Right-Hand Side (RHS) expression $f(x,y)$ for $\frac{dy}{dx} = f(x,y)$
 
 * **Developer:** Jawaria Tariq
 * **Project:** MATLAB MultiMethod DiffSolver Suite
-* **Institution:** Quaid-e-Awaam University of Engineering, Science & Technology (QUEST)
 
 ---
 
