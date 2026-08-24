@@ -32,9 +32,8 @@ A feature-rich MATLAB App Designer application created for solving Ordinary Diff
 
 ## How to Run
 
-1. Open **MATLAB** (R2020a or newer recommended).
-2. Download or clone this repository to your local folder:
-   ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-Open MATLAB and set the working directory to the project folder.Run the code directly from the Command Window:Matlabmain
-(Or open main.m in App Designer and click Run).Equation Syntax Examples1. Symbolic Differential Equationdiff(y(x),x) == y(x)diff(y(x),x) == x + y(x)dy/dx == cos(x)2. Numerical Methods (Euler & RK4)Enter the Right-Hand Side (RHS) expression $f(x, y)$ for $\frac{dy}{dx} = f(x, y)$:sin(x*y) + exp(-x)x^2 + yx - yDefault Parameters (Numerical Solvers)ParameterDefault ValueInitial $x_0$0Initial $y_0$1End $x$ ($x_{end}$)5Step Count (steps)50
+Markdown1. Open MATLAB and set the working directory to the project folder.
+2. Run the code directly from the Command Window:
+   ```matlab
+   main
+(Or open main.m in App Designer and click Run).Equation Syntax Examples1. Symbolic Differential Equationdiff(y(x),x) == y(x)diff(y(x),x) == x + y(x)dy/dx == cos(x)2. Numerical Methods (Euler & RK4)Enter the Right-Hand Side (RHS) expression $f(x,y)$ for $\frac{dy}{dx} = f(x,y)$:sin(x*y) + exp(-x)x^2 + yx - yDefault Parameters (Numerical Solvers)ParameterDefault ValueInitial $x_0$0Initial $y_0$1End $x$ ($x_{end}$)5Step Count (steps)50
