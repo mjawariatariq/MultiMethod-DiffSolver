@@ -65,3 +65,17 @@ Enter the Right-Hand Side (RHS) expression $f(x,y)$ for $\frac{dy}{dx} = f(x,y)$
 | Initial $y_0$ | `1` |
 | End $x$ ($x_{end}$) | `5` |
 | Step Count (`steps`) | `50` |
+
+---
+
+## Author & Acknowledgments
+
+* **Developer:** Jawaria Tariq
+* **Project:** MATLAB MultiMethod DiffSolver Suite
+* **Institution:** Quaid-e-Awaam University of Engineering, Science & Technology (QUEST)
+
+---
+
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
